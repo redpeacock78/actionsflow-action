@@ -47,8 +47,8 @@
     "string-argv": "^0.3.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.6",
-    "@commitlint/config-conventional": "17.6.6",
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
     "@release-it/conventional-changelog": "^7.0.0",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.2",
