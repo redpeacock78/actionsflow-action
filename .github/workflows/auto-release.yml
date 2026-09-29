@@ -55,4 +55,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-        run: npm exec --no -- release-it
+        run: npm exec --no -- release-it -- 3.1.5
