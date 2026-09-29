@@ -1,3 +1,9 @@
+## <small>3.1.5 (2026-09-29)</small>
+
+- chore: release v3.1.5 ([590ea4f](https://github.com/actionsflow/actionsflow-action/commit/590ea4f))
+- chore: sync package version with v3.1.4 ([35b6f0a](https://github.com/actionsflow/actionsflow-action/commit/35b6f0a))
+- fix: fallback to Actions Cache API on artifact API 5xx ([e03cae2](https://github.com/actionsflow/actionsflow-action/commit/e03cae2))
+
 # [3.1.0](https://github.com/actionsflow/actionsflow-action/compare/v3...v3.1.0) (2024-05-05)
 
 ### Features
