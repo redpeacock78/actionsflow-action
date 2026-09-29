@@ -58,8 +58,9 @@ export default async function exportLastCacheKeyEnv(): Promise<{
     );
 
     const actionsCaches = cacheResult.data.actions_caches;
-    if (actionsCaches && actionsCaches.length > 0) {
-      cacheKey = actionsCaches[0].key;
+    const fallbackCacheKey = actionsCaches?.[0]?.key;
+    if (fallbackCacheKey) {
+      cacheKey = fallbackCacheKey;
       core.info(`Recovered actionsflow cache key via Actions Cache API`);
     }
   }
